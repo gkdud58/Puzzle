@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# 빌드 결과물
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.exp
+
+# raylib / vcpkg
+vcpkg_installed/
+*.dll
+
+# 기타
+*.log
+Thumbs.db
+.DS_Store
