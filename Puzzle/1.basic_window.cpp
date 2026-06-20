@@ -20,15 +20,14 @@ int main(void)
     const int screenWidth = 800;
     const int screenHeight = 450;
 
-	// WM_CREATE
-    //--------------------------------------------------------------------------------------
+
+    // 윈도우 창 띄우기 ---------------------------------------------------------------------
     InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
-
-    SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
 
 
-
+    // Timer??
+    SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
 
 
 
@@ -47,15 +46,15 @@ int main(void)
 
 		// WM_PAINT
         //----------------------------------------------------------------------------------
-        BeginDrawing();
+        BeginDrawing(); // [필수] 그리기 시작한다~ 알리는 함수
 
-        ClearBackground(RAYWHITE);
+        ClearBackground(RAYWHITE); // 배경 색 채워주는 함수
 
         // DrawText(글자, 출력 X축, 출력 Y축, 글자크기, 글자색)
         DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
 
 
-        EndDrawing(); // 더블 버퍼링 자동으로 해주는듯?
+        EndDrawing(); // [필수] 더블 버퍼링 자동으로 해주는듯
         //----------------------------------------------------------------------------------
     }
 
@@ -65,7 +64,7 @@ int main(void)
 
 	// WM_DESTROY
     //--------------------------------------------------------------------------------------
-    CloseWindow();        // Close window and OpenGL context
+    CloseWindow();        // [필수] 나 이제 창 닫을게~ 알리는 함수 -> 이거 안 넣으면, 창 닫아도 작업관리자에 계속 남아있음
     //--------------------------------------------------------------------------------------
 
     return 0;
