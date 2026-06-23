@@ -17,12 +17,13 @@ int main(void)
 {
     // Initialization
     //--------------------------------------------------------------------------------------
-    const int screenWidth = 1919;
-    const int screenHeight = 1079;
+    const int screenWidth = GetMonitorWidth(0);
+    const int screenHeight = GetMonitorHeight(0);
 
 
     // 윈도우 창 띄우기 ---------------------------------------------------------------------
     InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
+    ToggleFullscreen();
     //--------------------------------------------------------------------------------------
 
 
