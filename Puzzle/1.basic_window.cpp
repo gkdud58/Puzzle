@@ -17,8 +17,8 @@ int main(void)
 {
     // Initialization
     //--------------------------------------------------------------------------------------
-    const int screenWidth = 800;
-    const int screenHeight = 450;
+    const int screenWidth = 1919;
+    const int screenHeight = 1079;
 
 
     // 윈도우 창 띄우기 ---------------------------------------------------------------------
