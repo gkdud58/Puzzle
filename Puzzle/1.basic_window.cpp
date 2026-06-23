@@ -48,7 +48,7 @@ int main(void)
         //----------------------------------------------------------------------------------
         BeginDrawing(); // [필수] 그리기 시작한다~ 알리는 함수
 
-        ClearBackground(RAYWHITE); // 배경 색 채워주는 함수
+        ClearBackground(BLACK); // 배경 색 채워주는 함수
 
         // DrawText(글자, 출력 X축, 출력 Y축, 글자크기, 글자색)
         DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
