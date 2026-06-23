@@ -32,7 +32,7 @@ int main(void)
 
 
     // Main game loop
-    while (!WindowShouldClose())    // Detect window close button or ESC key
+    while (!WindowShouldClose())    // esc키 누르면 게임 종료
     {
         // Update
         //----------------------------------------------------------------------------------
