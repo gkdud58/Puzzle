@@ -17,8 +17,8 @@ int main(void)
 {
     // Initialization
     //--------------------------------------------------------------------------------------
-    int screenWidth = GetMonitorWidth(0);   // 0 = 메인 모니터
-    int screenHeight = GetMonitorHeight(0);
+    const int screenWidth = 1919;
+    const int screenHeight = 1079;
 
 
     // 윈도우 창 띄우기 ---------------------------------------------------------------------
