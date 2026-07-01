@@ -17,7 +17,7 @@ int main(void)
 {
     // Initialization
     //--------------------------------------------------------------------------------------
-    const int screenWidth = 800;
+    const int screenWidth = 1200;
     const int screenHeight = 400;
     //const int screenWidth = GetMonitorWidth(0);
     //const int screenHeight = GetMonitorHeight(0);
@@ -54,7 +54,7 @@ int main(void)
         ClearBackground(BLACK); // 배경 색 채워주는 함수
 
         // DrawText(글자, 출력 X축, 출력 Y축, 글자크기, 글자색)
-        DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
+        DrawText("Congrats! You created your first window!", 190, 200, 40, RED);
 
 
         EndDrawing(); // [필수] 더블 버퍼링 자동으로 해주는듯
