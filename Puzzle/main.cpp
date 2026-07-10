@@ -19,6 +19,7 @@ int main(void)
     //--------------------------------------------------------------------------------------
     const int screenWidth = 1200;
     const int screenHeight = 400;
+    // 주석처리 막무가내로 해보리기
     //const int screenWidth = GetMonitorWidth(0);
     //const int screenHeight = GetMonitorHeight(0);
 
