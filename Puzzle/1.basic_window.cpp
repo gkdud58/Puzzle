@@ -19,16 +19,12 @@ int main(void)
 {
     // Initialization
     //--------------------------------------------------------------------------------------
-    const int screenWidth = 1200;
-    const int screenHeight = 400;
-    // 주석처리 막무가내로 해보리기
-    //const int screenWidth = GetMonitorWidth(0);
-    //const int screenHeight = GetMonitorHeight(0);
+    const int screenWidth = 1919;
+    const int screenHeight = 1079;
 
 
     // 윈도우 창 띄우기 ---------------------------------------------------------------------
     InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
-    //ToggleFullscreen();
     //--------------------------------------------------------------------------------------
 
 
@@ -57,7 +53,7 @@ int main(void)
         ClearBackground(BLACK); // 배경 색 채워주는 함수
 
         // DrawText(글자, 출력 X축, 출력 Y축, 글자크기, 글자색)
-        DrawText("Congrats! You created your first window!", 190, 200, 40, RED);
+        DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
 
 
         EndDrawing(); // [필수] 더블 버퍼링 자동으로 해주는듯

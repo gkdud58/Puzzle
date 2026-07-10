@@ -145,7 +145,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="1.basic_window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
