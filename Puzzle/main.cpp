@@ -7,6 +7,8 @@ CloseWindow();       // WM_DESTROY 대신
 */
 
 
+//아직도안되니수아야
+
 
 #include "raylib.h"
 
